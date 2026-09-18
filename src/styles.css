@@ -151,5 +151,16 @@
   body {
     background-color: var(--color-background);
     color: var(--color-foreground);
+    font-family: var(--font-sans);
+    font-size: 19px;
+    line-height: 1.7;
   }
 }
+
+@utility card-soft {
+  border-radius: var(--radius-2xl);
+  background-color: var(--color-card);
+  border: 2px solid var(--color-border);
+  box-shadow: 0 10px 24px -18px oklch(0.4 0.05 60 / 0.55);
+}
+
